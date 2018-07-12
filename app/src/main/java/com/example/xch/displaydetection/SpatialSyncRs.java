@@ -47,6 +47,7 @@ public class SpatialSyncRs
         return false;
     }
 
+
     private Matrix3f cvMat2rsMat(Mat m)
     {
         if(m.rows() != 3 || m.cols() != 3)
