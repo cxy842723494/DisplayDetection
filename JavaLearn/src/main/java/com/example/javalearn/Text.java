@@ -6,18 +6,26 @@ public class Text {
      System.out.println("Hallo the World");
 
      Human aPerson = new Human();
-     aPerson.breath();
+     Human.breath();
+     aPerson.weight();
 
      System.out.println(aPerson.height);
 
     }
 }
 
-class Human
-{
-    void breath(){
+class Human {
+    public static void breath() {
         System.out.println("hu..hu..");
+
+    }
+
+    void weight() {
+        System.out.println("You are very thin!");
     }
 
     int height = 5;
+
+
+
 }
