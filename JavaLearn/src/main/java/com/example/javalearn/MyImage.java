@@ -18,7 +18,7 @@ public class MyImage
         try
         {
             File input_file = new File("D:\\xch\\Daten\\Java_imagetext\\test-01.png");
-
+            // is necessary ?
             image = new BufferedImage(width,height,BufferedImage.TYPE_INT_ARGB);
 
             image = ImageIO.read(input_file);
