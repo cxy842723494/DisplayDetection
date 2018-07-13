@@ -19,5 +19,5 @@ class Human
         System.out.println("hu..hu..");
     }
 
-    int height = 6;
+    int height = 5;
 }
