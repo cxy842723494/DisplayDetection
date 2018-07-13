@@ -1,3 +1,4 @@
+/*
 package com.example.xch.displaydetection;
 
 import android.renderscript.Allocation;
@@ -164,7 +165,8 @@ public class SpatialSyncRs
         System.loadLibrary("CvReplacement");
     }
 
-    /**
+    */
+/*
      * Finds a homography transform that warps a quad with the corners \c src to the corners \c dst.
      *
      * \c src and \c dst must be formatted like this: {x1 y1 x2 y2 ...}.
@@ -175,6 +177,8 @@ public class SpatialSyncRs
      * @param src Source points (detected corners)
      * @param dst Destination points (corners of output image)
      * @return An array of 9 floats representing the resulting matrix, stored in \em column-major order.
-     */
+     *//*
+
     private native float[] nFindHomography(float[] src, float[] dst);
 }
+*/
