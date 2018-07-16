@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-
+//    GPU
     public static RenderScript mRS = null;
     private RenderScript mRsContext;
     private ScriptC_DisplayDetector mScript;
@@ -56,8 +56,9 @@ public class MainActivity extends AppCompatActivity {
         byte[] bY = new byte[UV_WIDTH*UV_HEIGHT*4];
         byte[] bU = new byte[UV_WIDTH*UV_HEIGHT];
         byte[] bV = new byte[UV_WIDTH*UV_HEIGHT];
-        String filePath = "YUV_1.yuv";
+        String filePath = "D:\\xch\\Daten\\Java_imagetext\\yuv_1_bs8_2.yuv";
         LoadImage.LoadFromSelectedDirectory(filePath, bY, bU, bV);
+//        YuvReader;
 
         // copy to gpu allocation
         mUAlloc.copyFrom(bU);

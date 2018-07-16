@@ -1,4 +1,4 @@
-package org.lskt.xu.vlcreceiver.util;
+package com.example.xch.displaydetection;
 
 import android.graphics.ImageFormat;
 import android.graphics.YuvImage;
