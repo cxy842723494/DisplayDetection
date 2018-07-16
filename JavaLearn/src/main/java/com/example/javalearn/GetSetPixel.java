@@ -16,7 +16,7 @@ public class GetSetPixel
         //read image
 
         try {
-            f = new File("D:\\xch\\Daten\\Java_imagetext\\test-01.png");
+            f = new File("G:\\Daten\\test-01.png");
             img = ImageIO.read(f);
         }
         catch (IOException e)
@@ -46,7 +46,7 @@ public class GetSetPixel
 
         // write image
         try {
-            f = new File("D:\\xch\\Daten\\Java_imagetext\\test-04.jpg");
+            f = new File("G:\\Daten\\test-02.jpg");
             ImageIO.write(img,"jpg",f);
         }
 

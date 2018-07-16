@@ -17,7 +17,7 @@ public class MyImage
 // read image
         try
         {
-            File input_file = new File("D:\\xch\\Daten\\Java_imagetext\\test-01.png");
+            File input_file = new File("G:\\Daten\\test-01.png");
             // is necessary ?
             image = new BufferedImage(width,height,BufferedImage.TYPE_INT_ARGB);
 
@@ -32,7 +32,7 @@ public class MyImage
 
 // write image
         try {
-            File output_file = new File("D:\\xch\\Daten\\Java_imagetext\\test-01out.jpg");
+            File output_file = new File("G:\\Daten\\test-01out.jpg");
             ImageIO.write(image,"jpg",output_file);
             System.out.println("Writing complete.");
             }
