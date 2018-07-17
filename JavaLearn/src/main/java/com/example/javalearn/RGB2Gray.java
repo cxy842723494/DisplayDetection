@@ -47,7 +47,7 @@ public class RGB2Gray {
                 int a = (p>>24)&0xff;
                 int r = (p>>16)&0xff;
                 int g = (p>>8)&0xff;
-                int b = p&0xff;
+                int b =  p&0xff;
 
 //                calculate average
                 int arg = (r+g+b)/3;

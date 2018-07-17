@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Binarisierung" />
             <option value="$PROJECT_DIR$/JavaLearn" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/text" />

@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/jmatio.jar')
+    implementation files('libs/ujmp-complete-0.3.0.jar')
+    implementation files('libs/ImageProcessing.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
